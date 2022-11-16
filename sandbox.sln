@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{E61A98A6-3FF8-480C-A800-A06B66A67009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_collections", "C Sharp\Arrays_collections\Arrays_collections.csproj", "{C4BF023B-7C98-4AA4-8B2A-2937C6168521}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Structures", "C Sharp\Data_Structures\Data_Structures.csproj", "{C4BF023B-7C98-4AA4-8B2A-2937C6168521}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async", "C Sharp\async\async.csproj", "{461DF8CE-9753-43BC-BC59-EA557F1B84EF}"
 EndProject
