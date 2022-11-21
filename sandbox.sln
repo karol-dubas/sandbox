@@ -95,7 +95,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "Libraries\JSON\JSON
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_examples", "Libraries\LINQ_examples\LINQ_examples.csproj", "{141F1631-F2D8-44C5-BFDC-68AC1CAEEBDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit_tests", "Libraries\xUnit_tests\xUnit_tests.csproj", "{D6C544F7-B377-4155-983B-3E56B2C86A0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit_examples", "Libraries\xUnit_examples\xUnit_examples.csproj", "{D6C544F7-B377-4155-983B-3E56B2C86A0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "SOLID\DependencyInversion\DependencyInversion.csproj", "{FF2EE9A0-1111-46E3-9397-9B930B304C1E}"
 EndProject
