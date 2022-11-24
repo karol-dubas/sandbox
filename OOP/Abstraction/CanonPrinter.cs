@@ -1,10 +1,9 @@
-﻿public class Printer
+﻿public class CanonPrinter : IPrinter
 {
 	public void Print(string text)
 	{
 		TakePaper();
 		HandlePrinting(text);
-		ShowInfo();
 	}
 
 	private void TakePaper()
@@ -15,10 +14,5 @@
 	private void HandlePrinting(string text)
 	{
 		Console.WriteLine($"Printing... {text}");
-	}
-
-	private void ShowInfo()
-	{
-		Console.WriteLine($"Printed");
 	}
 }
