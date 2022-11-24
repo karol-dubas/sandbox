@@ -9,9 +9,9 @@ namespace Attributes
         //[Help("test")]
         public int Property { get; set; }
 
-        // Atrybut nakładany na metodę i parametr metody
+        // Atrybuty nakładane na metodę i parametr metody
         [Help("method")]
-        static void Main([MethodParameter(Info = "test")] string value) { }
+        private static void Main([MethodParameter(Info = "test")] string[] args) { }
     }
 
     // Jak property nie ma w konstruktorze atrybutu, to trzeba ręcznie wpisać
