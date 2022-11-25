@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tuples
+namespace Tuples_var_dynamic_object_anonymous_type.Examples
 {
     public class Tuples
     {

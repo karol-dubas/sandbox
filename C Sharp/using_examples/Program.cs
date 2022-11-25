@@ -38,11 +38,11 @@ namespace using_examples
 
             // Skrótem dla powyższego try finally jest using
             // using możemy użyć dla każdej klasy, która implementuje IDisposable
-            using (var readFileStream4 = new FileStream(path, FileMode.Open))
+            using var readFileStream4 = new FileStream(path, FileMode.Open)
             {
                 // readFileStream4.Read();
                 // throw new Exception();
-            }
+            };
             // Po zakończeniu bloku using zostanie zamknięte połączenie
             // nie ważne jaki będzie wynik operacji
         }

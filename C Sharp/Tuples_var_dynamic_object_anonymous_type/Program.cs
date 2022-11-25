@@ -1,4 +1,4 @@
-﻿using Tuples;
+﻿using Tuples_var_dynamic_object_anonymous_type.Examples;
 
 namespace Tuples_var_dynamic_object_anonymous_type
 {
@@ -6,7 +6,7 @@ namespace Tuples_var_dynamic_object_anonymous_type
     {
         static void Main(string[] args)
         {
-            new Tuples.Tuples();
+            new Tuples();
             new AnonymousType();
             new FlexTypes();
         }

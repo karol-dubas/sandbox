@@ -1,4 +1,4 @@
-﻿namespace Tuples
+﻿namespace Tuples_var_dynamic_object_anonymous_type.Examples
 {
     internal class Student
     {

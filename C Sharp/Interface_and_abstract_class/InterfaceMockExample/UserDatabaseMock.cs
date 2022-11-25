@@ -1,6 +1,6 @@
 ﻿namespace Interface_and_abstract_class.InterfaceMockExample
 {
-	public class MockUserDatabase : IUserDatabase
+	public class UserDatabaseMock : IUserDatabase
 	{
 		public User Get(int id)
 		{

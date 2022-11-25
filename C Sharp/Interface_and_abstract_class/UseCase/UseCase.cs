@@ -17,8 +17,8 @@ namespace Interface_and_abstract_class.UseCase
 		//		- domyślne implementacje property/metod (interfejs też może, ale mało się używa)
 
 		// - syntax: 
-		//		- w interface składowe są 'public abstract' i nie trzeba tego pisać
-		//		- implementując interface nie robimy override, mimo że domyślnie jest abstract
+		//		- w interface składowe domyśłnie są 'public abstract' i nie trzeba tego pisać
+		//		- implementując interface nie robimy override składowych, mimo że domyślnie są abstract
 
 		public UseCase()
 		{
