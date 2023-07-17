@@ -10,11 +10,8 @@ internal class Program
 
     private static void Main()
     {
-        IFormatFactory randomFactory = Random.Shared.Next(2) == 1 ? new XmlFactory() : new JsonFactory();
-        var converter = new ArrayConverter(randomFactory);
-
-        int[] values = { 1, 2, 3 };
-        string result = converter.Create(values);
-        Console.WriteLine(result);
+        IGuiFactory randomFactory = Random.Shared.Next(2) == 1 ? new WindowsFactory() : new MacFactory();
+        var app = new Application(randomFactory);
+        app.CreateUi();
     }
 }
