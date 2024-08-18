@@ -1,4 +1,6 @@
-﻿namespace generics
+﻿using generics.Common;
+
+namespace generics
 {
     class Program
     {

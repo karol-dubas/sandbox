@@ -2,6 +2,11 @@
 
 namespace Attributes
 {
+    // Atrybuty to klasy do nakładania metadanych na konkretne typy, metody, parametry, property.
+    // Często używane z mechanizmem refleksji.
+    // Przykład: atrybuty debugowania, czasowniki HTTP w kontrolerach
+    // Można tworzyć własne atrybuty, które dziedziczą po Attribute
+    
     [Help("class")]
     class Program
     {

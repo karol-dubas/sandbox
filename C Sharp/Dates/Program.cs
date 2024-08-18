@@ -12,6 +12,8 @@ namespace Dates
             TimeSpan();
             DateParse();
             DateFormatting();
+            
+            // TODO: DateOnly, TimeOnly, TimeSpan
         }
 
         private static void DateTime()

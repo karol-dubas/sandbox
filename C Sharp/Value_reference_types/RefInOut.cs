@@ -27,8 +27,8 @@ public class RefInOut
 		Out(out person); // person.FirstName = "Jan"
 
 		// in, to taki ref, albo zwkłe przekazanie, tylko zmnienna wewnątrz jest readonly
-		// czyli po przekazaniu nie może się zmienić jej wartość, chyba że zmienimy pole tego obiektu
-		// tak jak "readonly List<Person> people", jest readonly, a można operować metodami listy
+		// czyli po przekazaniu nie może się zmienić jej wartość, chyba że zmienimy pole tego obiektu.
+		// Tak samo jak "readonly List<Person> people", jest readonly, a można operować metodami listy
 		In(in x);
 		In(in person); // person.FirstName = "Stanisław"
 	}
@@ -52,7 +52,7 @@ public class RefInOut
 	
 	private void Out(out Person param)
 	{
-		// Nie zadziała, bo pierwsze trzeba przypisać wartość
+		// Nie zadziała, bo pierwsze trzeba przypisać wartość (utworzyć nowy obiekt)
 		// param.FirstName = "Jan";
 
 		param = new Person("Jan");

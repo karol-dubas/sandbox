@@ -21,7 +21,7 @@ namespace Data_Structures
         {
             int[] array = new int[10];
             string[] daysOfTheWeek = { "pon", "wt", "sr", "czw", "pt", "so", "nd" };
-            int[,] array2 = new int[2, 3]; //2 rows, 3 columns, macierz
+            int[,] array2 = new int[2, 3]; //2 rows, 3 columns, matrix
             int[][] array3 = new int[3][]; // jagged array
             ArrayList arrayList = new ArrayList(); //lista z wszystkimi typami, wolniejsza, niegeneryczna
             List<int> list = new List<int>();
