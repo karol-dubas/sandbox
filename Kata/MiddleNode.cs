@@ -1,4 +1,6 @@
-﻿namespace Kata;
+﻿using Kata.Models;
+
+namespace Kata;
 
 public partial class KataTests
 {
